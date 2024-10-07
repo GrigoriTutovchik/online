@@ -15,111 +15,34 @@
 .slide {
   display: none;
   text-align: center;
-  padding: 50px 0;
+  padding:  0;
   height: 100vh;
   margin: 0 ;
+
+}
+
+.image {
   background-position: center center;
   /* определяет размер изображения на странице */
   background-size: contain;
   /* свойство устанавливает, будет ли повторяться изображение и каким образом */
-  background-repeat: no-repeat;
+  image-repeat: no-repeat;
   /* cвойство определяет, будет ли фоновое изображение прокручиваться 
   вместе с остальной частью страницы или будет фиксированным */
   background-attachment: fixed;
+  padding: 50px 0;
+  height: 100vh;
+  margin: 0 ;
+  max-width: 100%;
+  position: relative;
+  margin:  auto ;
+  padding: 0;
+  
 }
 
 .slide.active {
   display: block;
 }
-
-#slide1 {
-  background-image: url("./images/1СЛАЙД.png");
-}
-
-#slide2 {
-  background-image: url("./images/Слайд2.jpg");
-}
-
-#slide3 {
-  background-image: url("./images/слайд3.jpg");
-}
-
-#slide4 {
-  background-image: url("./images/слайд4.jpg");
-}
-
-#slide5 {
- background-image: url("./images/слайд5.jpg");
-}
-
-#slide6 {
-  background-image: url("./images/слайд6.png");
-}
-
-#slide7 {
-  background-image: url("./images/слайд7.jpg");
-}
-
-#slide8 {
-  background-image: url("./images/слайд8_2.jpg");
-}
-
-#slide9 {
-  background-image: url("./images/P4281389.JPG");
-}
-
-#slide10 {
-  background-image: url("./images/file.jpg");
-}
-
-
-#slide11 {
-  background-image: url("./images/слайд9.png");
-}
-
-#slide12 {
-  background-image: url("./images/слайд10.jpg");
-}
-
-#slide13 {
-  background-image: url("./images/слайд11.jpg");
-}
-
-#slide14 {
-  background-image: url("./images/слайд12_1.jpg");
-}
-
-#slide15 {
-  background-image: url("./images/слайд13.jpg");
-}
-
-#slide16 {
-  background-image: url("./images/слайд12.jpg");
-}
-
-#slide17 {
-  background-image: url("./images/слайд15.png");
-}
-
-#slide18 {
-  background-image: url("./images/слайд16.jpg");
-}
-
-#slide19 {
-  background-image: url("./images/слайд17.jpg");
-}
-
-#slide20 {
-  background-image: url("./images/слайд18.jpg");
-}
-
-#slide21 {
-  background-image: url("./images/слайд19.jpg");
-}
-
-
-
-
 
 .prev,
 .next {
