@@ -20,7 +20,7 @@
   margin: 0 ;
   background-position: center center;
   /* определяет размер изображения на странице */
-  background-size: cover;
+  background-size: contain;
   /* свойство устанавливает, будет ли повторяться изображение и каким образом */
   background-repeat: no-repeat;
   /* cвойство определяет, будет ли фоновое изображение прокручиваться 
@@ -33,7 +33,7 @@
 }
 
 #slide1 {
-  background-image: url("./images/1СЛАЙД.png");
+  background-image: url("https://grigoritutovchik.github.io/online/images/1СЛАЙД.png");
 }
 
 #slide2 {
@@ -61,35 +61,60 @@
 }
 
 #slide8 {
-  background-image: url("./images/слайд8.jpg");
+  background-image: url("./images/слайд8_2.jpg");
 }
 
 #slide9 {
-  background-image: url("./images/слайд9.png");
+  background-image: url("./images/P4281389.JPG");
 }
 
 #slide10 {
-  background-image: url("./images/слайд10.jpg");
+  background-image: url("./images/file.jpg");
 }
 
+
 #slide11 {
-  background-image: url("./images/слайд11.jpg");
+  background-image: url("./images/слайд9.png");
 }
 
 #slide12 {
-  background-image: url("./images/слайд12_1.jpg");
+  background-image: url("./images/слайд10.jpg");
 }
 
 #slide13 {
-  background-image: url("./images/слайд13.jpg");
+  background-image: url("./images/слайд11.jpg");
 }
 
 #slide14 {
-  background-image: url("./images/слайд12.jpg");
+  background-image: url("./images/слайд12_1.jpg");
 }
 
 #slide15 {
+  background-image: url("./images/слайд13.jpg");
+}
+
+#slide16 {
+  background-image: url("./images/слайд12.jpg");
+}
+
+#slide17 {
   background-image: url("./images/слайд15.png");
+}
+
+#slide18 {
+  background-image: url("./images/слайд16.jpg");
+}
+
+#slide19 {
+  background-image: url("./images/слайд17.jpg");
+}
+
+#slide20 {
+  background-image: url("./images/слайд18.jpg");
+}
+
+#slide21 {
+  background-image: url("./images/слайд19.jpg");
 }
 
 
