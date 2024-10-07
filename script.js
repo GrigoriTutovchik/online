@@ -11,7 +11,7 @@ function showSlides() {
     slideIndex = 1;
   }
   slides[slideIndex - 1].classList.add('active');
-  setTimeout(showSlides, 5000); // Замените 5000 на время, через которое вы хотите, чтобы слайды менялись (в миллисекундах)
+  setTimeout(showSlides, 1000); // Замените 5000 на время, через которое вы хотите, чтобы слайды менялись (в миллисекундах)
 }
 
 function plusSlides(n) {
