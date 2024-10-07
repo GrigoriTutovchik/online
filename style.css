@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin:  auto ;
+  padding: 0;
+
+}
+
+.slide {
+  display: none;
+  text-align: center;
+  padding: 50px 0;
+  height: 100vh;
+  margin: 0 ;
+  background-position: center center;
+  /* определяет размер изображения на странице */
+  background-size: cover;
+  /* свойство устанавливает, будет ли повторяться изображение и каким образом */
+  background-repeat: no-repeat;
+  /* cвойство определяет, будет ли фоновое изображение прокручиваться 
+  вместе с остальной частью страницы или будет фиксированным */
+  background-attachment: fixed;
+}
+
+.slide.active {
+  display: block;
+}
+
+#slide1 {
+  background-image: url("./images/1СЛАЙД.png");
+}
+
+#slide2 {
+  background-image: url("./images/Слайд2.jpg");
+}
+
+#slide3 {
+  background-image: url("./images/слайд3.jpg");
+}
+
+#slide4 {
+  background-image: url("./images/слайд4.jpg");
+}
+
+#slide5 {
+ background-image: url("./images/слайд5.jpg");
+}
+
+#slide6 {
+  background-image: url("./images/слайд6.png");
+}
+
+#slide7 {
+  background-image: url("./images/слайд7.jpg");
+}
+
+#slide8 {
+  background-image: url("./images/слайд8.jpg");
+}
+
+#slide9 {
+  background-image: url("./images/слайд9.png");
+}
+
+#slide10 {
+  background-image: url("./images/слайд10.jpg");
+}
+
+#slide11 {
+  background-image: url("./images/слайд11.jpg");
+}
+
+#slide12 {
+  background-image: url("./images/слайд12_1.jpg");
+}
+
+#slide13 {
+  background-image: url("./images/слайд13.jpg");
+}
+
+#slide14 {
+  background-image: url("./images/слайд12.jpg");
+}
+
+
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
